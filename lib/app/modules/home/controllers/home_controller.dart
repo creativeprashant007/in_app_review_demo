@@ -43,6 +43,8 @@ class HomeController extends GetxController {
     super.onClose();
   }
 
+  
+
   void increment() => count.value++;
   void setAppStoreId(String id) => appStoreId = id;
 
